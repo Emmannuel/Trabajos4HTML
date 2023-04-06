@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios en HTML</title>
+	<!--<style type="text/css">
+	</style>-->
+</head>
+<b><h1 align="center" style="color:white;">Formularios en HTML</h1></b>
+<body background="https://th.bing.com/th/id/R.c1f795080562d3cb6b855662447652f0?rik=h2ufGWeLus1KXA&riu=http%3a%2f%2fwww.hdwallpaperspulse.com%2fwp-content%2fuploads%2f2017%2f02%2f17%2fbest-hd-city-image.jpg&ehk=WXEdK%2b%2fTz3VEbyOpiybjCOffv%2f4W%2fDlSZHwfX3gQe4U%3d&risl=&pid=ImgRaw&r=0" text="white" topmargin="50px" leftmargin="70px" rightmargin="70px">
+<div align="justify">
+	<img src="https://s3-us-west-2.amazonaws.com/staticresources123/site/other/landings/php-contact-form/contact-form.png" align="right" height="350" width="450" hspace="10px" vspace="0">
+	<h3>Los formularios en HTML sirven al propósito de recolectar información proporcionada por los visitantes del sitio, la cual es luego enviada nuevamente al servidor. Para su correcto funcionamiento es importante que el formulario provisto en HTML sea acompañado de un código del lado servidor, al que denominaremos "agente procesador", que se encargará de recibir y procesar la información como el autor vea conveniente. Este procesamiento puede consistir en, por ejemplo, el almacenamiento de la información o su envío mediante correo electrónico.<br>	
+	<pre>&lt;form action="" method="" post="" get=""&gt; &lt;/form&gt;<br>
+&lt;form type="text, password, radius, submit, reset" name="" &gt; &lt;/form&gt;</pre></h3>
+	<h3><pre><code>Ejemplo:
+&lt;form&gt;
+	//Conjunto de acciones
+&lt;/form&gt;</code></pre></h3>
+<h1 style="color:white;">Tipos de formularios: </h1>
+<ul>
+	<li>Text</li>
+	<li>Password</li>
+	<li>Radio</li>
+	<li>CheckBox</li>
+	<li>Number</li>
+	<li>Submit</li>
+	<li>Button</li>
+</ul>
+<form action="" method="">
+          <table>
+             <tr>
+                     <td> Nombre: </td>
+                     <td><input type="text" name="zi"></td>
+             </tr>
+             <tr>
+                     <td>A.Paterno: </td>
+                     <td><input type="text" name="a"></td>
+             </tr> 
+                     <td>A.Materno: </td>
+                     <td><input type="text" name="b"></td>
+             </tr> 
+              </tr> 
+                     <td>Edad: </td>
+                     <td><input type="text" name="c"></td>
+             </tr> 
+              </tr> 
+                     <td>Direccion: </td>
+                     <td><input type="text" name="d"></td>
+             </tr> 
+              </tr> 
+                     <td>Correo Electronico: </td>
+                     <td><input type="text" name="e"></td>
+             </tr> 
+              </tr> 
+                     <td>Contraseña: </td>
+                     <td><input type="password" name="contra"></td>
+             </tr> 
+              </tr> 
+                     <td>Genero: </td>
+                     <td><input type="radio" name="h">Masculino<input type="radio" name="m">Femenino</td>
+             </tr> 
+              </tr> 
+                     <td>Especialidad: </td><td colspan="2"><select name="especialidad" id="sip">
+                         <option value="programacion">Tecnico en programacion</option>
+                         <option value="mantenimiento" id="mi">Tecnico en mantenimiento</option>
+                         <option value="confeccion" id="confe">Tecnico en prendas</option>
+                     </select></td>
+             </tr> 
+            <tr>
+            <td rowspan="1"> <b>Pasatiempos</b><br></td>
+             <td><input type="checkbox" name="pe" value="Leer">Comer <br>
+             	<input type="checkbox" name="ds" value="jugar videojuegos">Jugar videojuegos <br>
+             	<input type="checkbox" name="vd" value="ver videos">YouTube</td>
+             <td><input type="checkbox" name="fg" value="leer">Leer<br> 
+             	<input type="checkbox" name="sjhs" value="hacer ejercisio">Ejercicio <br>
+             	<input type="checkbox" name="coc" value="escuchar musica">Musica</td>
+            </tr>
+            <tr>
+                <td>Comentarios: </td>
+                <td><textarea rows="10" cols="40">Escribe aqui tus comentarios</textarea>s</td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="sub" value="Guardar"></td>
+                <td><input type="reset" name="res" value="Restablecer"></td>
+            </tr>
+        </table>    
+        </form>
+	<br>
+</h2>
+</div>
+</body>
+</html>
