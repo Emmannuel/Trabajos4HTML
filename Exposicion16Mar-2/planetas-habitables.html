@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-9">
+  <meta name="description" content="Página web sobre el sistema solar">
+  <meta name="keywords" content="Sistema solar, planetas, astronomía">
+  <meta name="author" content="">
+  <link rel="icon" href="./img/index/logo.png" type="image/png">
+  <title>Nuestro Sistema Solar</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <style type="text/css">#planets{ width: 1240px; height: 550px; } ol{ margin-left: 1px; }</style>
+</head>
+<body>
+  <h1>Planetas Habitables</h1>
+  <section id="main">
+    <img src="./img/index/planeta-tierra.png" align="right" height="170" width="200" hspace="20px" vspace="20">
+    <div align="justify"><p>Los planetas habitables son aquellos que se encuentran dentro de la zona habitable de una estrella y tienen condiciones que podrían permitir la existencia de vida. La zona habitable es la región alrededor de una estrella en la que la temperatura es lo suficientemente cálida para que exista agua líquida en la superficie de un planeta.<p>La búsqueda de planetas habitables es un tema apasionante y ha sido un enfoque clave de la exploración espacial en las últimas décadas. Desde el descubrimiento del primer exoplaneta en 1995, los científicos han descubierto miles de planetas fuera de nuestro sistema solar, y muchos de ellos se encuentran dentro de la zona habitable de su estrella.<p>Uno de los métodos utilizados para detectar planetas habitables es la observación de tránsitos, en los que un planeta pasa frente a su estrella y bloquea parte de su luz. Este método puede proporcionar información sobre el tamaño y la órbita del planeta.<p>Sin embargo, el descubrimiento de un planeta habitable no garantiza necesariamente la existencia de vida en él. La presencia de agua líquida es un ingrediente clave para la vida tal como la conocemos, pero también se necesitan otros factores, como la presencia de una atmósfera y una temperatura adecuada. Además, la vida puede tomar muchas formas diferentes, por lo que los científicos deben ser cautelosos al buscar vida en otros planetas.<p>La exploración de planetas habitables es un tema emocionante y continúa impulsando la investigación en la astrobiología y la exploración espacial. Las misiones futuras, como la misión James Webb Space Telescope de la NASA, están diseñadas para buscar signos de vida en exoplanetas cercanos y mejorar nuestra comprensión de los planetas habitables en general.</p></div>
+  </section>
+  <section id="caracteristicas">
+    <h2>¿Caracteristicas?</h2>
+    <div align="justify">
+      <p>Para que un planeta sea considerado habitable, debe tener ciertas características que permitan la existencia de vida tal como la conocemos. Algunas de estas características incluyen:</p>
+      <ol type="1">
+        <li>Estar en la zona habitable: El planeta debe orbitar a una distancia adecuada de su estrella para que su temperatura permita la presencia de agua líquida en la superficie. Este rango de distancia varía según la estrella en cuestión.</li>
+        <li>Tener una atmósfera adecuada: La atmósfera del planeta debe ser lo suficientemente densa como para retener la temperatura y la humedad necesarias para la vida. También debe tener la composición química adecuada para sostener la vida.</li>
+        <li>Tener una temperatura adecuada: La temperatura del planeta debe ser lo suficientemente estable para permitir la existencia de agua líquida en la superficie. Los planetas demasiado cerca de su estrella pueden ser demasiado calientes, mientras que los planetas demasiado lejos pueden ser demasiado fríos.</li>
+        <li>Tener agua líquida: El agua es un ingrediente clave para la vida tal como la conocemos. El planeta debe tener suficiente agua líquida en la superficie para sostener la vida.</li>
+        <li>Tener una masa y tamaño adecuados: La masa y el tamaño del planeta deben ser adecuados para sostener una atmósfera y retener suficiente calor para mantener la vida.</li>
+        <li>Tener una actividad geológica adecuada: La actividad geológica, como los volcanes y los terremotos, pueden proporcionar un ambiente adecuado para la vida.</li>
+        <li>Tener una protección adecuada contra la radiación: La vida en la Tierra está protegida por su campo magnético, que desvía la radiación solar y cósmica. Un planeta habitable también debe tener alguna forma de protección contra la radiación dañina.</li>
+      </ol>
+    </div>
+  </section>
+  <section id="planetas">
+    <div id="planets">
+      <h2>Planetas más Habitables</h2>
+      <div id="mercurio"><img src="./img/planetas/kepler.jpeg" align="left" height="150" width="200" hspace="20px" vspace="20px"><h3>Kepler-452b</h3>Este planeta se encuentra a unos 1.400 años luz de distancia de la Tierra y es considerado uno de los planetas más similares a la Tierra. Tiene una masa 5 veces mayor que la Tierra y orbita una estrella similar al Sol.</div>
+      <div id="venus"><img src="./img/planetas/TRAPPIST-1e.png" align="left" height="150" width="200" hspace="20px" vspace="20px"><h3>TRAPPIST-1e</h3>Este planeta es uno de los siete planetas que orbitan alrededor de la estrella enana TRAPPIST-1, a unos 40 años luz de distancia de la Tierra. TRAPPIST-1e tiene un tamaño similar al de la Tierra y orbita dentro de la zona habitable de la estrella.</div>
+      <div id="tierra"><img src="./img/planetas/Gliese_667Cb.png" align="left" height="150" width="200" hspace="20px" vspace="20px"><h3>Gliese 667 Cc</h3>Este planeta se encuentra a unos 22 años luz de distancia de la Tierra y es considerado uno de los planetas más similares a la Tierra. Tiene una masa y un tamaño similares a los de la Tierra y orbita una estrella enana roja.</div>
+    </div>
+  </section>
+  <div align="center">
+  <footer>
+    <h2>Comentarios:</h2>
+    <form action="" method="">
+          <table><tr><td> Nombre: </td><td><input type="text" name="name"></td></tr>
+              <tr><td>Edad: </td><td><input type="text" name="age"></td></tr> 
+              <tr><td>Correo Electronico: </td><td><input type="text" name="email"></td></tr> 
+            <tr><td>Comentarios: </td><td><textarea rows="10" cols="40">Escribe aqui tus comentarios</textarea></td></tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="sub" value="Enviar"> <input type="reset" name="res" value="Restablecer"></td>
+            </tr>
+        </table>    
+        </form>
+        <p>Este sitio web fue actualizado el 11/03/2023 - 8:30pm</p>
+        <p>Informacion y imagenes de <a href="https://solarsystem.nasa.gov">Nasa</p>
+  </footer></div>
+  <div align="right"><a href="#"><img src="./img/index/estrella.png" height="40" weight="40"></a></div>
+</body>
+</html>

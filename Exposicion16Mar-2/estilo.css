@@ -1,0 +1,205 @@
+body{
+  background-image: url("./img/index/footer_bg.jpg");
+  margin-left: 20px;
+  text-align: center;
+  font-family: Metropolis,Helvetica,Arial,sans-serif;
+  font-size: 100%;
+  line-height: 1.5
+}
+a{
+    color: white;
+}
+h1{
+  color: white;
+  text-shadow: 5px 5px 3px blue;
+}
+h2{
+    color: white;
+    text-shadow: 5px 5px 3px blue;
+}
+ul{
+    color: white;
+    margin-left: 1px;
+}
+ol{
+    color: white;
+    margin-left: 38%;
+}
+
+p{
+  color: white;
+}
+footer{
+    color: white;
+}
+textarea{
+    width:230px;
+    height:100px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: #2f3639;
+}
+input{
+   border: 2px solid white;
+   border-radius: 20px;
+   background-color: #2f3639;
+  /* box-shadow: 0px 0px 20px #3609ED*/
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-right: 0px; /* ajusta la distancia entre los elementos */
+}
+nav li:last-child {
+  margin-right: 0;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  color: whitesmoke; /* color del texto del enlace */
+  font-size: 16px; /* tamaño de la fuente */
+  font-weight: bold; /* peso de la fuente */
+}
+#planets{
+    border:solid 3px;
+    width: 1240px;
+    height: 1100px;
+    float: top;
+    margin-top: 1%;
+    margin-right:3%;
+    margin-bottom:2%;
+    background-image: url("./img/index/tabs_background.jpg");
+    color: white;
+    text-align: center;
+    border-color: transparent;
+}
+#mercurio{
+    border:solid 3px;
+    width: 540px;
+    height: 220px;
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: transparent;
+    border-color: transparent;
+}
+#venus{
+    border:solid 3px;
+    width: 540px;
+    height: 220px;
+    margin-left: 51%;
+    margin-top: -18.2%;
+    background-color: transparent;
+    border-color: transparent;
+}
+#tierra{
+    border:solid 3px;
+    width: 540px;
+    height: 220px;
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: transparent;
+    border-color: transparent;
+}
+#marte{
+    border:solid 3px;
+    width: 540px;
+    height: 220px;
+    margin-left: 51%;
+    margin-top: -18.2%;
+    background-color: transparent;
+    border-color: transparent;
+}
+#jupiter{
+    border:solid 3px;
+    width: 540px;
+    height: 220px;
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: transparent;
+    border-color: transparent;
+}
+#saturno{
+    border:solid 3px;
+    width: 540px;
+    height: 220px;
+    margin-left: 51%;
+    margin-top: -18.2%;
+    background-color: transparent;
+    border-color: transparent;
+}
+#urano{
+    border:solid 3px;
+    width: 540px;
+    height: 220px;
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: transparent;
+    border-color: transparent;
+}
+#neptuno{
+    border:solid 3px;
+    width: 540px;
+    height: 220px;
+    margin-left: 51%;
+    margin-top: -18.2%;
+    background-color: transparent;
+    border-color: transparent;
+}
+#pluton{
+    border:solid 3px;
+    width: 540px;
+    height: 220px;
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: transparent;
+    border-color: transparent;
+}
+#ceres{
+    border:solid 3px;
+    width: 540px;
+    height: 220px;
+    margin-left: 51%;
+    margin-top: -18.2%;
+    background-color: transparent;
+    border-color: transparent;
+}
+#makemake{
+    border:solid 3px;
+    width: 540px;
+    height: 220px;
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: transparent;
+    border-color: transparent;
+}
+#haumea{
+    border:solid 3px;
+    width: 540px;
+    height: 220px;
+    margin-left: 51%;
+    margin-top: -18.2%;
+    background-color: transparent;
+    border-color: transparent;
+}
+#eris{
+    border:solid 3px;
+    width: 540px;
+    height: 220px;
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: transparent;
+    border-color: transparent;
+}
+#planeta-x{
+    border:solid 3px;
+    width: 540px;
+    height: 220px;
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: transparent;
+    border-color: transparent;
+}
