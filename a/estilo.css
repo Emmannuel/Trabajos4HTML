@@ -1,0 +1,116 @@
+#a1{
+    border:solid 3px;
+    width: 735px;
+    height: 100px;
+    float: top;
+    margin-top: 1%;
+    margin-left:5%;
+    margin-right:3%;
+    margin-bottom:2%;
+    background-color: white;
+}
+#a2{
+    border:solid 3px;
+    width: 233px;
+    height: 100px;
+    margin-left: 5%;
+    margin-top: -1%;
+    background-color: cyan;
+    border-color: black;
+}
+#a3{
+    border:solid 3px;
+    width: 233px;
+    height: 100px;
+    margin-left: 5%;
+    margin-top: -2%;
+    background-color: #0833a2;
+    margin-top: 1%;
+    border-color: black;
+
+}
+#a4{
+    border:solid 3px;
+    width: 233px;
+    height: 100px;
+    margin-left: 5%;
+    margin-top: -2%;
+    background-color: blue;
+    margin-top: 1%;
+    border-color: black;
+
+}
+#a5{
+    border:solid 3px;
+    width: 233px;
+    height: 100px;
+    margin-left: 38%;
+    margin-top: -43.8%;
+    background-color: #33FF77;
+    border-color: black;
+}
+#a6{
+    border:solid 3px;
+    width: 233px;
+    height: 100px;
+    margin-left: 38%;
+    margin-top: -2%;
+    background-color: #00B83D;
+    margin-top: 1%;
+    border-color: black;
+
+}
+#a7{
+    border:solid 3px;
+    width: 233px;
+    height: 100px;
+    margin-left: 38%;
+    margin-top: -2%;
+    background-color: green;
+    margin-top: 1%;
+    border-color: black;
+
+}
+#a8{
+    border:solid 3px;
+    width: 233px;
+    height: 100px;
+    margin-left: 71%;
+    margin-top: -43.8%;
+    background-color: darkmagenta;
+    border-color: black;
+
+}
+#a9{
+    border:solid 3px;
+    width: 233px;
+    height: 100px;
+    margin-left: 71%;
+    margin-top: -2%;
+    background-color: orangered;
+    margin-top: 1%;
+    border-color: black;
+
+}
+#a10{
+    border:solid 3px;
+    width: 233px;
+    height: 100px;
+    margin-left: 71%;
+    margin-top: -2%;
+    background-color: red;
+    margin-top: 1%;
+    border-color: black;
+
+}
+#a11{
+    border:solid 3px;
+    width: 735px;
+    height: 100px;
+    float: top;
+    margin-top: 1%;
+    margin-left:5%;
+    margin-right:3%;
+    margin-bottom:5%;
+    background-color: white;
+}

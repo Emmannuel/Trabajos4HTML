@@ -1,0 +1,43 @@
+
+#contenedor{
+	border:solid 5px;
+	width:1000px;
+	height:700px;
+	margin:0 auto 0 auto;
+	background-color:#CFC;
+	overflow:auto;
+	border-radius: 10px;
+	
+}
+#cabeza{
+	border:solid 2px;
+	border-width: 3px; 
+	border-right: 3px;
+	text-align: center;
+	background-color: white; 
+	/*width: 200px;
+	height: 200px;*/
+}
+#cabeza2{
+	border:solid 2px;
+	text-align: center;
+	background-color: green; 
+}
+#cabeza3{
+	border:solid 2px;
+	text-align: center;
+	background-color: red; 
+}
+#cabeza4{
+	border:solid 2px;
+	border-width: 3px; 
+	border-right: 3px;
+	text-align: center;
+	background-color: white; 
+	width: 200px;
+	height: 200px;
+}
+.h3{
+	color: black;
+    font-size: 18px;
+}

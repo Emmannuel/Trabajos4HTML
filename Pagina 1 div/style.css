@@ -1,0 +1,14 @@
+#contenedor{
+	border: solid 1px;
+	width: 1000px;
+	height: 700px;
+	margin: 0 auto 0 auto;
+	background-color: #2f3136;
+	overflow: auto;
+	border-radius: 10px;
+}
+#cabecera{
+	border: solid 2px;
+	text-align: center;
+	background-color: white;
+}
